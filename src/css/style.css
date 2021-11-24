@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.App {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.text_input {
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: rgb(128, 128, 128);
+  padding: 5px;
+  font-size: 16px;
+  color: white;
+}
+
+.text_input:focus {
+  outline: none;
+}
+
+.submit {
+  height: 40px;
+  width: 60px;
+  border: none;
+  margin-left: 10px;
+  background-color: orange;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin-top: 30px;
+}
+
+.filter-btn {
+  width: 80px;
+  height: 50px;
+  background-color: purple;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: rgb(105, 105, 105);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.content {
+  color: white;
+  font-size: 24px;
+}
+
+.complete_btn {
+  height: 30px;
+  min-width: 40px;
+  border: none;
+  border-radius: 3px;
+  background-color: orange;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.delete_btn {
+  height: 30px;
+  min-width: 40px;
+  border: none;
+  border-radius: 3px;
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  color: white;
+}

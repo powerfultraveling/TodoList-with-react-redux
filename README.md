@@ -1,5 +1,5 @@
 # 用 React Redux 做出一個 Todolist !
-
+Demo page: https://powerfultraveling.github.io/TodoList-with-react-redux/
 ## 專案介紹
 
 ### 有點學習曲線的 Redux
